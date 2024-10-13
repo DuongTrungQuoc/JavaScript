@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var ten = "Quoc"
+    const ten_nguoi_yeu = "Huỳnh Thị Kim Đức"
+    ten_nguoi_yeu_toLowerCase = ten_nguoi_yeu.toLowerCase()
+    ten_duoc_nhap = window.prompt("Nhập tên người yêu của bạn")
+
+    if(ten_nguoi_yeu_toLowerCase.includes(ten_duoc_nhap.toLowerCase())){
+        document.write("Đúng là người yêu tui òi!!!<br>")
+        for(var i=0;i<10;i++){
+            document.write("Quốc yêu ",ten_nguoi_yeu," siêu nhiều<br>")
+        }
+    }
+    else{
+        document.write("Nhầm rồi! Vui lòng nhập lại")
+    }
+</script>
+<body>
+    
+</body>
+</html>
